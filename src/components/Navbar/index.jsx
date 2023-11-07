@@ -106,7 +106,7 @@ const Header = () => {
 						</li>
 						<li className="text-base font-normal text-gray-500 hover:text-gray-900 mt-1 list-none cursor-pointer">
 							<a
-								href="https://www.facebook.com/msclubsliit"
+								href=""
 								target="_blank"
 								rel="noopener noreferrer"
 							>

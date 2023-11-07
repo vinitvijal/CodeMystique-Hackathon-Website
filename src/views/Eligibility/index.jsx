@@ -29,7 +29,7 @@ const Eligibility = () => {
 						🎓 All 2nd Year Students
 					</div>
 					<div className="pt-2 text-xl font-medium">
-						🎓 All 3rd Year 1st Semester Students
+						🎓 All Non-CBS College Students
 					</div>
 				</div>
 

@@ -4,7 +4,7 @@ import Logo from "../../assets/logo/CodeMystique (7).png";
 import { Link } from "react-router-dom";
 
 const Countdown = () => {
-	let currDate = "14-11-2023";
+	let currDate = "24-11-2023";
 	currDate = currDate.split("-");
 	let newDate = new Date(currDate[2], currDate[1] - 1, currDate[0]);
 	let month = newDate.toLocaleString("en-us", { month: "long" });
@@ -23,7 +23,8 @@ const Countdown = () => {
 			<div className="justify-center items-center mt-0 md:mt-0 md:p-10 ml-20">
 				<div>
 					<CountdownTimer
-						countdownTimestampMs={1699900199000}
+						countdownTimestampMs={1700764200000	
+						}
 						month={month}
 						date={date}
 					/>
