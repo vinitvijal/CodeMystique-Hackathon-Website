@@ -3,49 +3,49 @@
 		{
 			"id": 1,
 			"title": "Registration Open for CodeMystique",
-			"dateTime": "25th Of October - 10.00 am",
+			"dateTime": "10th of November - 12.00 am",
 			"description": "Get ready to embark on a coding adventure! Registration for CodeMystique officially opens on the 25th of October at 10:00 am. This is your opportunity to join a dynamic community of tech enthusiasts, showcase your coding prowess, and vie for the title of CodeMystique champion. Don't miss out – secure your spot and get ready to dive into the realm of coding excellence!"
 		},
 		{
 			"id": 2,
 			"title": "Registration Closes",
-			"dateTime": "12th Of August - 10.00 am",
+			"dateTime": "20th of November- 6:00 pm",
 			"description": "Team registration closes on this day. Please note that NO registration is accepted after the registrations are closed. Be sure to get registered before the deadline ends."
 		},
 		{
 			"id": 3,
 			"title": "Round 1 - Mind-Bending Online Quiz",
-			"dateTime": "15th Of November - 12.00 pm - 05.00 pm",
+			"dateTime": "21th of November - 12.00 pm - 05.00 pm",
 			"description": "Prepare for a quiz like no other! On the 15th of November at 12:00 pm, the Online Quiz will challenge your knowledge with a twist. Expect mind-bending questions that will test your problem-solving skills and coding acumen. Only the sharpest minds will advance to the next stage, earning a chance to compete on the campus of SSCBS for a spot in the CodeMystique finals. Don't miss your shot at glory! Be there and show us what you're made of!"
 		},
 		{
 			"id": 4,
 			"title": "Round 1 Results - Revealing the Top Contenders",
-			"dateTime": "15th Of November - 08.00 pm",
+			"dateTime": "21th Of November - 08.00 pm",
 			"description": "Get ready to discover the cream of the coding crop! On the 15th of November at 08:00 pm, we'll unveil the results of Round 1. Find out if you've made the cut to advance to the next thrilling stage of CodeMystique. The top contenders will be one step closer to the finals, where the real coding showdown awaits. Stay tuned for this pivotal announcement!"
 		},
 		{
 			"id": 5,
 			"title": "Offline Round 1 - Polyglot Puzzles: The Language Shifter Round",
-			"dateTime": "17th Of November - 09.00 am",
+			"dateTime": "24th Of November - 09.00 am  - 11 am",
 			"description": "Join us on the vibrant SSCBS campus on November 17th at 09:00 am for the Offline Round 1 - Language Shifter Challenge. Test your coding adaptability and proficiency in multiple languages. Only the top performers will advance to the CodeMystique finals!"
 		},
 		{
 			"id": 6,
 			"title": " Polyglot Results Announcement",
-			"dateTime": "17th Of November - 11.30 am",
+			"dateTime": "24th Of November - 11.30 am",
 			"description": "The moment of truth has arrived! On the 17th of November at 11:30 am, we will reveal the results of the Language Shifter Challenge. Only the top 30% of students will secure direct entry to the CodeMystique finals. For those who didn't make it, there's another chance to earn a spot in the finals through the exhilarating CipherQuest challenge. Stay tuned for this pivotal announcement!"
 		},
 		{
 			"id": 7,
 			"title": "CipherQuest - Your Golden Ticket to CodeMystique Finals!",
-			"dateTime": "17th Of November - 11.45 am",
+			"dateTime": "24th Of November - 11.45 am",
 			"description": "Seize this golden opportunity! On the 17th of November at 12:00 pm, embark on the exhilarating CipherQuest - a treasure hunt challenge that could lead you directly to the CodeMystique finals. Crack codes, follow clues, and decipher hidden messages to secure your spot in the grand showdown. Only the top 20% will advance, so give it your all and claim your golden ticket to the finals of CodeMystique!"
 		},
 		{
 			"id": 8,
 			"title": "CodeMystique Grand Finale: The Ultimate Showdown",
-			"dateTime": "17th Of November - 12.00 pm",
+			"dateTime": "24th Of November - 12.00 pm",
 			"description": "Get ready for the ultimate coding showdown! The CodeMystique Grand Finale is where champions are made. This high-stakes event will test your skills in Data Structures and Algorithms across multiple programming languages. Don't miss this chance to prove your coding prowess and compete for the title of CodeMystique champion!"
 		}
 	]
