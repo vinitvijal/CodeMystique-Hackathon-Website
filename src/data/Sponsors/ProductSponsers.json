@@ -1,0 +1,18 @@
+{
+	"data": [
+		
+		{
+			"id": 1,
+			"companyName": "JetBrains",
+			"imageUrl": "jb_beam.png",
+			"companyUrl": "https://www.jetbrains.com/"
+		},
+        {
+			"id": 2,
+			"companyName": "echo3D",
+			"imageUrl": "echo3D.png",
+			"companyUrl": "https://www.echo3d.com/"
+		}
+		
+	]
+}
