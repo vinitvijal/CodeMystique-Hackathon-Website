@@ -1,5 +1,4 @@
 import React from "react";
-import sscbs from "../../assets/sponsors/sscbs.png";
 // import acm from '../../assets/sponsors/acm.png';
 // import gdsc from '../../assets/sponsors/gdsc-social.png';
 const Sponsers = (props) => {
