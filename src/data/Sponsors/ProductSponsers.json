@@ -12,7 +12,13 @@
 			"companyName": "echo3D",
 			"imageUrl": "echo3D.png",
 			"companyUrl": "https://www.echo3d.com/"
-		}
+		},
+        {
+            "id": 3,
+            "companyName": ".xyz",
+            "imageUrl": "xyz-logo-color.png",
+            "companyUrl": "https://gen.xyz"
+        }
 		
 	]
 }
