@@ -18,6 +18,12 @@
             "companyName": ".xyz",
             "imageUrl": "xyz-logo-color.png",
             "companyUrl": "https://gen.xyz"
+        },
+		{
+            "id": 3,
+            "companyName": "Tech Stop",
+            "imageUrl": "TechStop.png",
+            "companyUrl": "/"
         }
 		
 	]

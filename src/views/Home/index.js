@@ -7,10 +7,12 @@ import Gallery from "../Gallery";
 import Sponsors from "../Sponsors";
 import GoldSponsors from "../../data/Sponsors/GoldSponsers.json";
 import ProductSponsors from "../../data/Sponsors/ProductSponsers.json";
+import PopModel from "../Model";
 
 const Home = () => {
 	return (
 		<>
+			<PopModel />
 			<Navbar />
 			<Header />
 			<Eligibility />
@@ -18,7 +20,6 @@ const Home = () => {
 			<Gallery />
 			<Sponsors type="Gold" sponsors={GoldSponsors} />
 			<Sponsors type="Product" sponsors={ProductSponsors} />
-
 			<Footer />
 		</>
 	);
