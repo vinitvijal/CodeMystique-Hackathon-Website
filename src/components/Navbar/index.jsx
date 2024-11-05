@@ -45,7 +45,7 @@ const Header = () => {
 				<div className="flex justify-between items-center border-0 py-3 md:justify-start md:space-x-10">
 					<div className="flex justify-start lg:w-0 lg:flex-1">
 						<div className="text-xl font-medium text-black hover:text-gray-900 list-none">
-							CodeMystique 1.0 (ACM x GDSC)
+							CodeMystique 2.0 (ACM SSCBS)
 						</div>
 					</div>
 					<div className="-mr-2 -my-2 md:hidden">
@@ -115,11 +115,11 @@ const Header = () => {
 						</li>
 						<li className="ml-8 cursor-pointer inline-flex items-center justify-center px-4 py-1 border-0 rounded font-normal text-white hover:text-black bg-black hover:bg-gray-200 transition duration-0 hover:duration-500">
 							<a
-								href="https://gdsc.community.dev/shaheed-sukhdev-college-of-business-studies-delhi/"
+								href="https://chat.whatsapp.com/DL8ixOTK49zFcIzD2Qfgl8"
 								target="__blank"
 								rel="noopener noreferrer"
 							>
-								Join GDSC-SSCBS
+								Join WhatsApp
 							</a>
 						</li>
 					</Popover.Group>
@@ -178,10 +178,10 @@ const Header = () => {
 						<div className="py-6 px-5 space-y-6">
 							<div>
 								<a
-									href="https://gdsc.community.dev/shaheed-sukhdev-college-of-business-studies-delhi/" target="__blank"
+									href="https://chat.whatsapp.com/DL8ixOTK49zFcIzD2Qfgl8" target="__blank"
 									className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:text-black bg-black hover:bg-gray-200 transition duration-0 hover:duration-500"
 								>
-									Join GDSC-SSCBS
+									Join WhatsApp
 								</a>
 							</div>
 						</div>

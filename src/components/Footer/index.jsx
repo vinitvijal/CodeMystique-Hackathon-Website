@@ -1,6 +1,6 @@
 import React from "react";
 import acm from "../../assets/logo/acm.png";
-import gdsc from "../../assets/logo/gdsc-social.png";
+// import gdsc from "../../assets/logo/gdsc-social.png";
 import sscbs from "../../assets/logo/sscbs.png";
 
 const Footer = () => {
@@ -21,23 +21,20 @@ const Footer = () => {
 					>
 						<img src={sscbs} className="mr-3 h-12" alt="Shaheed Sukhdev College of Business Studies" />
 					</a>
-					<a
+					{/* <a
 						href="https://gdsc.community.dev/shaheed-sukhdev-college-of-business-studies-delhi/"
 						className="flex items-center mb-4 sm:mb-0"
 					>
 						<img src={gdsc} className="mr-3 h-12" alt="Google Developer Students Club SSCBS" />
-					</a>
+					</a> */}
 					
 				</div>
 
 				<span className="block text-sm text-gray-800 text-center font-medium">
-					Official CodeMystique 1.0 Coding Hunt Competition 2023{" "} By {" "}
+					Official CodeMystique 2.0 Coding Hunt Competition 2024{" "} By {" "}
 					<a href="https://www.instagram.com/sscbsacm/" className="hover:underline">
 						ACM SSCBS
-					</a> {" "}and{" "}
-					<a href="https://www.instagram.com/gdsc_sscbs/" className="hover:underline">
-						GDSC SSCBS
-					</a>
+					</a> {" "}
 					
 				</span>
 				<div className="flex mt-4 space-x-6 justify-center sm:mt-0">

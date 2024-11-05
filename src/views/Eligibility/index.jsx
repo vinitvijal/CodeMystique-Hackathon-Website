@@ -15,7 +15,7 @@ const Eligibility = () => {
 
 				<div className="flex justify-center">
 					<div className="text-center text-neutral-500 lg:text-xl">
-					CodeMystique welcomes participants from all walks of coding life, <br />
+					CodeMystique 2.0 welcomes participants from all walks of coding life, <br />
 					whether you're a seasoned developer or just beginning your coding journey. <br />
 					From tech enthusiasts to aspiring programmers, <br /> this event is designed to challenge and inspire individuals of all skill levels.
 					</div>
@@ -29,7 +29,7 @@ const Eligibility = () => {
 						🎓 All 2nd Year Students
 					</div>
 					<div className="pt-2 text-xl font-medium">
-						🎓 All Non-CBS College Students
+						🎓 All College Students
 					</div>
 				</div>
 
