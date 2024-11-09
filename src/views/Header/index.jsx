@@ -42,7 +42,7 @@ const Countdown = () => {
 				</div>
 				<div className="text-center mt-7">
 					<Link
-						to="#"
+						to="https://unstop.com/hackathons/codemystique-20-coding-supreme-challenge-shaheed-sukhdev-college-of-business-studies-sscbs-du-delhi-1208554?lb=zcxFvRj&utm_medium=Share&utm_source=shortUrl"
 						target="_blank"
 						rel="noopener noreferrer"
 						className=" bg-white text-black border border-black hover:bg-gray-100 rounded lg:text-lg pl-4 pr-4 pt-1 pb-1 transition duration-0 hover:duration-500"

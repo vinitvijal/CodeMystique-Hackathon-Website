@@ -5,9 +5,9 @@ import IMG1 from "../../assets/gallery/img1.webp";
 import IMG2 from "../../assets/gallery/img2.webp";
 import IMG3 from "../../assets/gallery/img3.webp";
 import IMG4 from "../../assets/gallery/img4.webp";
-import IMG5 from "../../assets/gallery/img5.webp";
-import IMG6 from "../../assets/gallery/img6.webp";
-import IMG7 from "../../assets/gallery/img7.webp";
+// import IMG5 from "../../assets/gallery/img5.webp";
+// import IMG6 from "../../assets/gallery/img6.webp";
+// import IMG7 from "../../assets/gallery/img7.webp";
 
 const responsive = {
 	superLargeDesktop: {
@@ -41,9 +41,9 @@ const Gallery = () => {
 					<img src={IMG2} alt="minihackthon2019" className="lg:pr-3" />
 					<img src={IMG3} alt="minihackthon2019" className="lg:pr-3" />
 					<img src={IMG4} alt="minihackthon2019" className="lg:pr-3" />
-					<img src={IMG5} alt="minihackthon2019" className="lg:pr-3" />
+					{/* <img src={IMG5} alt="minihackthon2019" className="lg:pr-3" />
 					<img src={IMG6} alt="minihackthon2019" className="lg:pr-3" />
-					<img src={IMG7} alt="minihackthon2019" className="lg:pr-3" />
+					<img src={IMG7} alt="minihackthon2019" className="lg:pr-3" /> */}
 				</Carousel>
 			</div>
 		</div>
