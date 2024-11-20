@@ -113,6 +113,19 @@ const Header = () => {
 								Contact
 							</a>
 						</li>
+						<li className="text-base font-normal text-gray-500 hover:text-gray-900 mt-1 list-none cursor-pointer">
+							<Link
+								to="results"
+								spy={true}
+								smooth={true}
+								offset={30}
+								duration={800}
+								delay={100}
+							>
+								Results
+							</Link>
+						</li>
+						
 						<li className="ml-8 cursor-pointer inline-flex items-center justify-center px-4 py-1 border-0 rounded font-normal text-white hover:text-black bg-black hover:bg-gray-200 transition duration-0 hover:duration-500">
 							<a
 								href="https://chat.whatsapp.com/DL8ixOTK49zFcIzD2Qfgl8"

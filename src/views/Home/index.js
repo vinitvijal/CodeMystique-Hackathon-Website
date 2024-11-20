@@ -6,6 +6,7 @@ import Timeline from "../Timeline";
 import Gallery from "../Gallery";
 import Sponsors from "../Sponsors";
 import GoldSponsors from "../../data/Sponsors/GoldSponsers.json";
+import Results from "../Results";
 // import ProductSponsors from "../../data/Sponsors/ProductSponsers.json";
 
 
@@ -17,6 +18,7 @@ const Home = () => {
 			<Eligibility />
 			<Timeline />
 			<Gallery />
+			<Results />
 			<Sponsors type="Gold" sponsors={GoldSponsors} />
 			{/* <Sponsors type="Product" sponsors={ProductSponsors} /> */}
 			<Footer />
