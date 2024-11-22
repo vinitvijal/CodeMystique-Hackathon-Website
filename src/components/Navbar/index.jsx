@@ -1,7 +1,8 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { Link } from "react-scroll";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import ConfettiExplosion from 'react-confetti-explosion';
 
 
 const solutions = [
@@ -39,6 +40,8 @@ const solutions = [
 ];
 
 const Header = () => {
+	const [isExploding, setIsExploding] = useState(false);
+
 	return (
 		<Popover className="sticky z-50 top-0  bg-white">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -126,13 +129,20 @@ const Header = () => {
 							</Link>
 						</li>
 						
-						<li className="ml-8 cursor-pointer inline-flex items-center justify-center px-4 py-1 border-0 rounded font-normal text-white hover:text-black bg-black hover:bg-gray-200 transition duration-0 hover:duration-500">
+						<li className="ml-8 cursor-pointer inline-flex items-center z-0 relative justify-center px-4 py-1 border-0 rounded font-normal text-white hover:text-black bg-purple-500 hover:bg-gray-200 transition duration-0 hover:duration-500">
 							<a
-								href="https://chat.whatsapp.com/DL8ixOTK49zFcIzD2Qfgl8"
-								target="__blank"
+								href="https://www.hackerrank.com/codemystique-2-0-finale"
+								onClick={() => {
+									setIsExploding(true);
+									setTimeout(() => {
+										setIsExploding(false);
+									}, 2000);
+								}}
+								// target="__blank"
 								rel="noopener noreferrer"
 							>
-								Join WhatsApp
+								Play Finale 2.0
+							{isExploding && <ConfettiExplosion className=" absolute z-10" />}
 							</a>
 						</li>
 					</Popover.Group>
@@ -191,10 +201,10 @@ const Header = () => {
 						<div className="py-6 px-5 space-y-6">
 							<div>
 								<a
-									href="https://chat.whatsapp.com/DL8ixOTK49zFcIzD2Qfgl8" target="__blank"
-									className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:text-black bg-black hover:bg-gray-200 transition duration-0 hover:duration-500"
+									href="https://www.hackerrank.com/codemystique-2-0-finale" target="__blank"
+									className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:text-black bg-purple-400 hover:bg-gray-200 transition duration-0 hover:duration-500"
 								>
-									Join WhatsApp
+									Play Finale
 								</a>
 							</div>
 						</div>
